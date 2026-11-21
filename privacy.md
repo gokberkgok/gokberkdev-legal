@@ -4,10 +4,14 @@ title: Privacy Policy
 
 # Privacy Policy — gokberkdev Studio
 
-_Last updated: November 21, 2026_
+_Last updated: November 21, 2026 (YouTube API Services added)_
 
 This Privacy Policy explains how **gokberkdev Studio** (the "App"), operated by Gökberk Gök
-("we", "us"), handles data when a TikTok or Instagram account is connected to it.
+("we", "us"), handles data when a TikTok, Instagram or YouTube account is connected to it.
+
+**The App uses YouTube API Services.** By connecting a YouTube channel you agree to be bound by
+the [YouTube Terms of Service](https://www.youtube.com/t/terms), and your data is also handled
+under the [Google Privacy Policy](https://policies.google.com/privacy).
 
 ## 1. Who uses the App
 
@@ -19,12 +23,13 @@ The App is a private tool used only by its operator to publish videos to the ope
 When the operator connects an account, the App may access, through official APIs and only with
 the permissions granted:
 
-- **Account information:** account ID (open_id), username and display name
-  (TikTok scope `user.info.basic`; Instagram `instagram_basic`).
+- **Account information:** account ID (open_id), username, display name or channel name
+  (TikTok scope `user.info.basic`; Instagram `instagram_basic`; YouTube `youtube.readonly`).
 - **Publishing:** the ability to upload and publish videos created by the App
-  (TikTok `video.upload`, `video.publish`; Instagram `instagram_content_publish`).
+  (TikTok `video.upload`, `video.publish`; Instagram `instagram_content_publish`;
+  YouTube `youtube.upload`).
 - **Video statistics:** view, like, comment and share counts of videos published by the App
-  (TikTok `video.list`; Instagram `instagram_manage_insights`).
+  (TikTok `video.list`; Instagram `instagram_manage_insights`; YouTube `youtube.readonly`).
 - **Access tokens:** OAuth access and refresh tokens issued by the platform.
 
 The App does not access direct messages, contacts, followers' personal data, location or any
@@ -47,13 +52,17 @@ Connections to platform APIs use HTTPS.
 Tokens are kept while the account remains connected and are deleted when the account is
 disconnected from the App dashboard. Video statistics are kept for the operator's own reporting
 and can be deleted on request. Revoking the App's access in the platform's settings also
-invalidates its tokens.
+invalidates its tokens. For YouTube, access can be revoked at any time from the
+[Google security settings page](https://myaccount.google.com/permissions). Data obtained
+from YouTube API Services is refreshed or deleted within 30 days, as required by the YouTube
+API Services Developer Policies.
 
 ## 6. Third-party services
 
-The App interacts with TikTok and Meta (Instagram) APIs, whose own privacy policies apply:
-[TikTok Privacy Policy](https://www.tiktok.com/legal/privacy-policy) and
-[Meta Privacy Policy](https://privacycenter.instagram.com/policy).
+The App interacts with TikTok, Meta (Instagram) and YouTube APIs, whose own privacy policies
+apply: [TikTok Privacy Policy](https://www.tiktok.com/legal/privacy-policy),
+[Meta Privacy Policy](https://privacycenter.instagram.com/policy) and
+[Google Privacy Policy](https://policies.google.com/privacy).
 
 ## 7. Children
 

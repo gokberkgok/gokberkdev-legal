@@ -4,7 +4,7 @@ title: Terms of Service
 
 # Terms of Service — gokberkdev Studio
 
-_Last updated: November 21, 2026_
+_Last updated: November 21, 2026 (YouTube API Services added)_
 
 These Terms of Service ("Terms") govern the use of **gokberkdev Studio** (the "App"), a private
 content-publishing tool operated by Gökberk Gök ("we", "us"). By authorizing the App with a TikTok
@@ -13,12 +13,13 @@ or Instagram account, you agree to these Terms.
 ## 1. What the App does
 
 gokberkdev Studio is an internal tool that produces short educational software-engineering videos
-and publishes them to the **@gokberkdev** accounts on TikTok and Instagram owned by the operator.
+and publishes them to the **@gokberkdev** accounts on TikTok, Instagram and YouTube owned by the
+operator.
 The App:
 
 - generates video scripts, voice-over and visuals for software-engineering topics;
 - uploads finished videos to the connected account through the official TikTok Content Posting
-  API and Instagram Graph API, only after the operator approves each video;
+  API, Instagram Graph API and YouTube Data API, only after the operator approves each video;
 - reads basic profile information and performance statistics (views, likes, comments, shares) of
   videos published by the App, to show them in the operator's private dashboard.
 
@@ -29,8 +30,10 @@ The App is not offered to the public and does not provide services to third-part
 Only the operator's own accounts may be connected to the App. You must be authorized to manage
 the account you connect and must comply with the
 [TikTok Terms of Service](https://www.tiktok.com/legal/terms-of-service),
-[TikTok Community Guidelines](https://www.tiktok.com/community-guidelines) and
-[Instagram Terms of Use](https://help.instagram.com/581066165581870).
+[TikTok Community Guidelines](https://www.tiktok.com/community-guidelines),
+[Instagram Terms of Use](https://help.instagram.com/581066165581870) and
+[YouTube Terms of Service](https://www.youtube.com/t/terms). The App uses YouTube API
+Services; connecting a YouTube channel means agreeing to the YouTube Terms of Service.
 
 ## 3. Content
 
@@ -46,7 +49,8 @@ platform rate limits, or to access accounts or data you are not authorized to ac
 ## 5. Revoking access
 
 You can disconnect the App at any time from the App dashboard or from the platform's own
-settings (TikTok: Settings and privacy → Security → Manage app permissions). Disconnecting
+settings (TikTok: Settings and privacy → Security → Manage app permissions; Google/YouTube:
+[myaccount.google.com/permissions](https://myaccount.google.com/permissions)). Disconnecting
 revokes the App's ability to publish or read data.
 
 ## 6. Availability and changes
